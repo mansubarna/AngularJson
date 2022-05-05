@@ -1,0 +1,55 @@
+[{
+    "firstName": "Rack",
+    "lastName": "Jackon",
+    "gender": "man",
+    "age": 24,
+    "address": {
+        "streetAddress": "126",
+        "city": "San Jone",
+        "state": "CA",
+        "postalCode": "394221"
+    },
+    "phoneNumber":"7383627627" 
+},
+{
+  "firstName": "Jack",
+  "lastName": "Jackon",
+  "gender": "women",
+  "age": 36,
+  "address": {
+    "streetAddress": "126",
+    "city": "San Jone",
+    "state": "CA",
+    "postalCode": "394221"
+  },
+  "phoneNumber": "7383627627"
+},
+{
+  "firstName": "Mack",
+  "lastName": "Jackon",
+  "gender": "women",
+  "age": 36,
+  "address": {
+    "streetAddress": "126",
+    "city": "San Jone",
+    "state": "CA",
+    "postalCode": "394221"
+  },
+  "phoneNumber": "7383627627"
+},
+{
+  "firstName": "Hack",
+  "lastName": "Jackon",
+  "gender": "women",
+  "age": 36,
+  "address": {
+    "streetAddress": "126",
+    "city": "San Jone",
+    "state": "CA",
+    "postalCode": "394221"
+  },
+  "phoneNumber": "7383627627"
+}
+
+
+]
