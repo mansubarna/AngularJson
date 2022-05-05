@@ -1,0 +1,75 @@
+.steps{
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap;   uncomment this to appear scrollbar if overflowed*/
+    font-size: 12px;
+    overflow-y: auto;
+}
+.steps p{
+margin:0;
+color:#999;
+
+}
+.step{
+    padding: 0 1rem;
+    text-align: center;
+}
+.step img{
+    max-width: 64px;
+    margin:0.5rem 0;
+}
+.step p{
+}
+.arrow{
+    height:120px;
+    display: flex;
+    align-items: center;
+   text-align: center;
+}
+.issue{
+    text-align: right;
+    opacity: 0.7;
+}
+.issue-brief{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+}
+.issue .num{
+    font-size: 10px;
+    color:red;
+    line-height: 20px;
+    margin-right: 5px;
+}
+.issue p{
+    font-size: 11px;
+}
+.green-circle{
+    width:16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color:#55a335;
+    display: inline-block;
+}
+.arrow-img{
+    height:2px;
+    width:100%;
+    background:#55a335;
+    position: relative;
+    margin-bottom: 10px;
+    min-width: 30px;
+}
+.arrow-img:after{
+    content:"";
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #55a335;
+    position: absolute;
+    top:-3px;
+    right:0;
+}

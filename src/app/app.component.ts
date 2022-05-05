@@ -11,5 +11,6 @@ import data from './data/data.json';
 })
 export class AppComponent {
   title = 'angularjson';
-  people:People[]=data;
+  people:People[]=data; 
+ 
 }
